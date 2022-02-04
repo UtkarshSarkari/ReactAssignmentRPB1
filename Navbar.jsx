@@ -14,7 +14,7 @@ export default function Navbar() {
     <div>
       <nav>
           <div className="navOne">
-              <MenuIcon style={{fontSize: 25, marginTop: 10, marginBottom: 10, marginLeft: 30, marginRight: 30}} />
+              <MenuIcon className='menu' style={{fontSize: 24, marginTop: 10, marginBottom: 10, marginLeft: 15, marginRight: 8, color: '#666666', paddingLeft: 10, paddingRight: 10, paddingTop: 10, paddingBottom: 10}} />
               <img src={gmailIcon} alt="" />
               <span>Gmail</span>
           </div>
@@ -22,13 +22,13 @@ export default function Navbar() {
               <div className="navTwo1">
               <SearchIcon style={{color: '#666666'}} />
               <input type="text" placeholder='Search mail' />
-              <img src={filter} alt="" style={{color: '#666666'}} />
+              <img src={filter} alt="" />
               </div>
           </div>
           <div className="navThree">
-              <HelpOutlineIcon style={{marginRight: 10}} />
-              <SettingsIcon style={{marginRight: 10}} />
-              <AppsIcon style={{marginRight: 10}} />
+              <HelpOutlineIcon className='icon' style={{marginRight: 1, paddingLeft: 10, paddingRight: 10, paddingTop: 10, paddingBottom: 10, color: '#666666'}} />
+              <SettingsIcon className='icon' style={{marginRight: 1, paddingLeft: 10, paddingRight: 10, paddingTop: 10, paddingBottom: 10, color: '#666666'}} />
+              <AppsIcon className='icon' style={{marginRight: 1, paddingLeft: 10, paddingRight: 10, paddingTop: 10, paddingBottom: 10, color: '#666666'}} />
               <img src={profile} alt="" />
           </div>
       </nav>
